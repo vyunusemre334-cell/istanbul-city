@@ -1,0 +1,16 @@
+ISTANBUL CITY — GAMEPLAY BUILD TEST REPORT
+==========================================
+Native CMake configure/build: PASS
+CTest: PASS (1/1 game_smoke)
+Renderer C++ syntax check: PASS (local GLES/log header stubs)
+
+Smoke coverage:
+- character movement, jump lock, crouch and sprint
+- NPC movement and gang count
+- mission registration/start, interaction, completion, three-mission cycling and progress restore
+- vehicle entry, acceleration, steering and exit
+
+Not run:
+- Android Gradle/NDK APK or AAB packaging (Android SDK/NDK unavailable in this workspace)
+- physical-device rendering, touch response, GPU compatibility or FPS certification
+- photorealistic asset quality; models are procedural/stylized, not licensed production assets
